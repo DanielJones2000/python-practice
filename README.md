@@ -1,5 +1,5 @@
 ## 生成数据库迁移文件
-python manage.py makemigrations
+<code>python manage.py makemigrations<code>
 
 ## 生成数据库
-python manage.py migrate
+<code>python manage.py migrate<code>
