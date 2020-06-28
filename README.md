@@ -4,6 +4,15 @@ vscode
 ```
 python.pythonPath 
 ```
+## 开发环境配置
+安装虚拟环境
+```
+pip install virtualenv
+```
+指定当前目录为虚拟环境
+```
+virtualenv 目录地址
+```
 
 ## 生成数据库迁移文件
 ``` python
