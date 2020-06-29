@@ -18,6 +18,9 @@ virtualenv 目录地址
 pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
+
+// vscode 需要安装
+pip install pylint-django
 ```
 
 ## 生成数据库迁移文件

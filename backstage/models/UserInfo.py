@@ -12,3 +12,6 @@ class UserInfo(models.Model):
     password = models.CharField(max_length=32, blank=True)
     # 账号
     account = models.CharField(max_length=64, blank=True)
+
+    def __str__(self):
+        return "{}".format(self.displayName)
