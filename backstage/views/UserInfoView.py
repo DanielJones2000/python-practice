@@ -1,5 +1,5 @@
 from backstage.models import UserInfo
-from rest_framework import routers, serializers, viewsets
+from rest_framework import serializers, viewsets
 
 
 class UserInfoViewSerializer(serializers.ModelSerializer):
@@ -11,7 +11,3 @@ class UserInfoViewSerializer(serializers.ModelSerializer):
 class UserInfoViewSet(viewsets.ModelViewSet):
     queryset = UserInfo.objects.all()
     serializer_class = UserInfoViewSerializer
-
-
-router = routers.DefaultRouter()
-router.register(r'userinfo', UserInfoViewSet)
